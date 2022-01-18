@@ -22,7 +22,18 @@ export default function App() {
             <span role="img" aria-label="">
               &#128556;
             </span>
-            .
+            . Click on icons to know me more.
+          </div>
+          <div className="okcont">
+            <span role="img" aria-label="" className="ok">
+              🎓
+            </span>
+            <span role="img" aria-label="" className="ok">
+              📃
+            </span>
+            <span role="img" aria-label="" className="ok">
+              🛠
+            </span>
           </div>
         </div>
       </div>
