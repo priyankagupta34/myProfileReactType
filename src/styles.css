@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  /* background: black; */
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  color: gray;
+  line-height: 20px;
+  font-weight: 100;
+  color: ghostwhite;
+  font-size: 0.97em;
+  transition: all 0.2s;
+}
+
+.app {
+  background-image: url(landscape.jpeg);
+  background-color: rgba(0, 0, 0, 0.25);
+  background-blend-mode: multiply;
+  background-position: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.app {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.flexDiv {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 5px;
+  width: 50vw;
+  background: #461741bd;
+  /* height: 26vh; */
+  border-radius: 3px;
+  box-shadow: 0 0 11px 5px #270825;
+  border: 1px solid #461741;
+  margin: 10px;
+  padding: 10px;
+  min-height: 200px;
+}
+.qwer1,
+.qwer2 {
+  border: 1px solid #6d0362;
+  padding: 10px;
+}
+
+.qwer1 {
+  background-image: url(me.jpeg);
+  background-position: center;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  background-size: cover;
+}
+.qwer2 {
+}
+
+@media only screen and (max-width: 700px) {
+  .app {
+    /* background-size: 100vw 70vh; */
+  }
+  .flexDiv {
+    grid-template-columns: 1fr;
+    width: 72vw;
+  }
+}
